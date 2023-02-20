@@ -1,0 +1,54 @@
+body{
+    font-family: arial, sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+
+.top{
+    background-image: url(../imagens/01.png);
+    background-position: right center;
+    height: 500px;
+    background-size: cover;
+    border-top: 1px solid transparent; 
+
+}
+
+.title{
+    text-align: center;
+    color: white;
+    margin-top: 280px;
+}
+
+.title h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.top nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+.top nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    border: 1px solid white;    
+}
+
+.top nav a{
+    background: rgba(0,0,0, 0.3);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.top nav a:hover{
+    background: rgba(0,0,0, 0.5);
+}
